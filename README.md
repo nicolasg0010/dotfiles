@@ -1,2 +1,2 @@
 # dotfiles
-My neovim + tmux config
+My alacritty + neovim + tmux config
