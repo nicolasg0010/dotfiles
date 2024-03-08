@@ -3,5 +3,5 @@ return {
   lazy = false,
   config = function()
     require("Comment").setup()
-  end
+  end,
 }

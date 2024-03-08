@@ -27,8 +27,8 @@ return {
     "neovim/nvim-lspconfig",
     config = function()
       local capabilities = require("cmp_nvim_lsp").default_capabilities()
-
       local lspconfig = require("lspconfig")
+
       lspconfig.lua_ls.setup({
         capabilities = capabilities
       })
@@ -44,13 +44,7 @@ return {
       lspconfig.tsserver.setup({
         capabilities = capabilities
       })
-      lspconfig.pyright.setup({
-        capabilities = capabilities
-      })
       lspconfig.tailwindcss.setup({
-        capabilities = capabilities
-      })
-      lspconfig.vuels.setup({
         capabilities = capabilities
       })
       lspconfig.eslint.setup({
