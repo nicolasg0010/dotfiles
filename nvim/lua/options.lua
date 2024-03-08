@@ -7,3 +7,4 @@ vim.cmd("set cursorline")
 vim.cmd("set clipboard=unnamedplus")
 
 vim.g.mapleader = " "
+vim.opt.scrolloff = 10
